@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 | 你的求职方向</title>
+  <meta name="description" content="个人作品集网页——展示你的项目、实习与成果。请替换成你自己的介绍。">
+  <meta name="theme-color" content="#5B8C7A">
+  <meta property="og:title" content="你的名字 | 你的求职方向">
+  <meta property="og:description" content="个人作品集网页——展示你的项目、实习与成果。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/placeholder-avatar.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <!-- 字体自托管（fonts/ + css/fonts.css）：不依赖 Google Fonts，国内访问稳定；
+       非阻塞加载 + unicode-range 按需下载子集，加载失败自动回退系统中文字体 -->
+  <link rel="stylesheet" href="css/fonts.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="css/fonts.css">
+  </noscript>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">你的名字</a>
+      <div class="nav-links" id="navLinks">
+                <a href="#home" data-nav="home">首页</a>
+        <a href="#about" data-nav="about">关于</a>
+        <a href="#portfolio" data-nav="portfolio">作品集</a>
+        <a href="#internship" data-nav="internship">实习</a>
+        <a href="#experience" data-nav="experience">获奖</a>
+        <a href="#blog" data-nav="blog">博客</a>
+        <button class="lang-toggle" id="langToggle" aria-label="切换语言 / Switch language" aria-pressed="false" title="Switch to English">
+          <span class="lang-zh active">中</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-en">EN</span>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Home / Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg-decor"></div>
+    <div class="hero-content"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+  <!-- About -->
+  <section class="about section-padding" id="about">
+    <div class="container"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+  <!-- AI Projects Showcase -->
+  <section class="ai-projects section-padding" id="ai-projects">
+    <div class="container">
+      <h2 class="section-title">AI 产品与项目</h2>
+      <div class="section-divider"></div>
+      <p class="ai-projects-intro">【示例】这里展示你独立做过的产品与项目——请替换成你自己的。</p>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-card-image">
+            <img src="images/placeholder-work.svg" alt="示例产品截图" loading="lazy" decoding="async" width="800" height="450">
+          </div>
+          <div class="work-card-body">
+            <span class="work-card-tag">示例 · 类目标签</span>
+            <h4 class="work-card-title">示例产品一</h4>
+            <p class="work-card-desc">【示例】一句话说清：这个产品解决什么问题、你负责什么、有什么结果。请替换成你自己的项目描述。</p>
+            <div class="work-card-tech">
+              <span>技术栈一</span><span>技术栈二</span><span>技术栈三</span>
+            </div>
+          </div>
+        </article>
+        <article class="work-card">
+          <div class="work-card-image">
+            <img src="images/placeholder-work-2.svg" alt="示例产品截图" loading="lazy" decoding="async" width="800" height="450">
+          </div>
+          <div class="work-card-body">
+            <span class="work-card-tag">示例 · 类目标签</span>
+            <h4 class="work-card-title">示例产品二</h4>
+            <p class="work-card-desc">【示例】介绍产品功能、技术方案和你承担的角色。请替换成你自己的项目描述。</p>
+            <div class="work-card-tech">
+              <span>技术栈一</span><span>技术栈二</span><span>技术栈三</span>
+            </div>
+            <a href="#" target="_blank" rel="noopener" class="work-card-link">查看源码 →</a>
+          </div>
+        </article>
+        <article class="work-card work-card--row">
+          <div class="work-card-image work-card-image--dual">
+            <img src="images/placeholder-work.svg" alt="示例产品截图" loading="lazy" decoding="async">
+            <img src="images/placeholder-work-2.svg" alt="示例产品截图" loading="lazy" decoding="async">
+          </div>
+          <div class="work-card-body">
+            <span class="work-card-tag">示例 · 类目标签</span>
+            <h4 class="work-card-title">示例产品三</h4>
+            <p class="work-card-desc">【示例】介绍这个项目做了什么、解决谁的什么问题。请替换成你自己的项目描述。</p>
+            <div class="work-card-tech">
+              <span>技术栈一</span><span>技术栈二</span><span>技术栈三</span>
+            </div>
+            <a href="#" target="_blank" rel="noopener" class="work-card-link">查看源码 →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media -->
+  <section class="media-account section-padding" id="media">
+    <div class="container">
+      <h2 class="section-title">自媒体阵地</h2>
+      <div class="section-divider"></div>
+      <p class="media-account-intro">【示例】如果你在运营自媒体账号，可以在这里展示（没有可整段删除）。</p>
+      <div class="media-card">
+        <div class="media-main">
+          <div class="media-id">
+            <img class="media-avatar" src="images/placeholder-avatar.svg" alt="账号头像" loading="lazy" decoding="async" width="72" height="72">
+            <div class="media-id-text">
+              <h4 class="media-name">你的账号名</h4>
+              <p class="media-handle">小红书 · 你的账号ID</p>
+              <div class="media-tags"><span>标签一</span><span>标签二</span><span>标签三</span></div>
+            </div>
+          </div>
+          <p class="media-bio">「【示例】你的账号简介——定位、风格，一两句话。请替换成你自己的。」</p>
+          <div class="media-stats">
+            <div class="media-stat"><span class="media-stat-value">X万+</span><span class="media-stat-label">粉丝</span></div>
+            <div class="media-stat"><span class="media-stat-value">X万</span><span class="media-stat-label">获赞与收藏</span></div>
+            <div class="media-stat"><span class="media-stat-value">X+</span><span class="media-stat-label">单篇最高赞</span></div>
+          </div>
+          <a class="work-card-link" href="#" target="_blank" rel="noopener">去小红书围观 @你的账号 <span>→</span></a>
+        </div>
+        <div class="media-notes">
+          <figure class="media-note">
+            <img src="images/placeholder-note.svg" alt="示例笔记截图" loading="lazy" decoding="async">
+            <figcaption><span class="media-note-likes">0000 赞</span><span class="media-note-title">示例笔记标题一</span></figcaption>
+          </figure>
+          <figure class="media-note">
+            <img src="images/placeholder-note.svg" alt="示例笔记截图" loading="lazy" decoding="async">
+            <figcaption><span class="media-note-likes">0000 赞</span><span class="media-note-title">示例笔记标题二</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Selected Projects -->
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+  <!-- Internship -->
+  <section class="internship section-padding" id="internship">
+    <div class="container"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+  <!-- Experience / Achievements -->
+  <section class="experience section-padding" id="experience">
+    <div class="container"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+  <!-- Blog -->
+  <section class="blog section-padding" id="blog">
+    <div class="container"><!-- 内容由 js/content.js 自动渲染 --></div>
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <h2 class="cta-heading">Let's Work Together</h2>
+      <p class="cta-sub">如果你正在寻找【你的方向】的人才——请替换成你自己的话</p>
+      <div class="cta-links">
+        <a class="hero-btn hero-btn--primary" href="mailto:you@example.com">Email Me</a>
+        <a class="hero-btn hero-btn--ghost" href="#about">了解更多</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="footer-logo">你的名字</span>
+        <p class="footer-tagline">Content &times; Growth &times; AI</p>
+      </div>
+      <p class="footer-text">&copy; 2026 你的名字</p>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

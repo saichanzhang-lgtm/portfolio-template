@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — 页面不存在</title>
+  <style>
+    :root {
+      --bg: #FCFAF6;
+      --text: #2D2A28;
+      --muted: #96918C;
+      --primary: #5B8C7A;
+      --gold: #C8A45C;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .code {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(6rem, 15vw, 12rem);
+      font-weight: 900;
+      color: var(--primary);
+      opacity: 0.15;
+      line-height: 1;
+      margin-bottom: -20px;
+    }
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+    a {
+      display: inline-block;
+      padding: 10px 24px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    a:hover { background: #4A7A68; }
+    .brand {
+      margin-top: 48px;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 0.85rem;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="code">404</div>
+    <h1>Page not found</h1>
+    <p>Looks like this page got lost somewhere.</p>
+    <a href="/">Back Home</a>
+    <div class="brand">你的名字 · Content × Growth × AI</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <rect width="960" height="720" fill="#F6F1E7"/>
+  <rect x="1" y="1" width="958" height="718" fill="none" stroke="#E3DACA" stroke-width="2" stroke-dasharray="10 8"/>
+  <g stroke="#C9BFAC" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="434" y="223.1428571428571" width="92" height="68" rx="10"/>
+    <circle cx="464" cy="251.1428571428571" r="10"/>
+    <path d="M440 283.1428571428571 l30 -28 22 20 20 -16 24 24"/>
+  </g>
+  <text x="480" y="368" text-anchor="middle" font-family="system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="60" fill="#9A9284">你的照片 / 配图</text>
+</svg>
